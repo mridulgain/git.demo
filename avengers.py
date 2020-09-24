@@ -10,11 +10,17 @@ def thor():
 	print("Bring me Thanos!!")
 
 
+def cap():
+	print("Avengers assemble")
+
+
 def default():
 	if sys.argv[1] == "thor":
 		thor()
 	elif sys.argv[1] == "hulk":
 		hulk()
+	elif sys.argv[1] == "cap":
+		cap()
 	else:
 		print("hello")
 
