@@ -1,8 +1,15 @@
 import sys
 
 
+def hulk():
+	print("Hulk SMASH!!!")
+
+
 def default():
-	print("hello")
+	if sys.argv[1] == "hulk":
+		hulk()
+	else:
+		print("hello")
 
 
 if __name__ == '__main__':
