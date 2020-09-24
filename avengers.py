@@ -1,8 +1,15 @@
 import sys
 
 
+def cap():
+	print("Avengers assemble")
+
+
 def default():
-	print("hello")
+	if sys.argv[1] == "cap":
+		cap()
+	else:
+		print("hello")
 
 
 if __name__ == '__main__':
