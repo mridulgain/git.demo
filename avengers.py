@@ -3,6 +3,7 @@ import sys
 
 def thor():
 	print("God of thunder!!")
+	print("Bring me Thanos!!")
 
 
 def default():
