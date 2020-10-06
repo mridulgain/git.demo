@@ -4,7 +4,8 @@ def thor():
     print('thor IW: bring me thanos!!!!)
 def captain_america():
     print('Cap: Avengers assemble')
-
+def hulk():
+    print('Hulk: hulk smash!!!')
 def default():
     print('Nick: welcome to avengers initiative')
     
@@ -15,6 +16,8 @@ if  __name__ == '__main__':
             thor()
         elif avenger == 'cap':
             captain_america()
+        elif avenger == 'hulk':
+            hulk()
         else:
             default() 
     except:
