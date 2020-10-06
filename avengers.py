@@ -2,6 +2,8 @@ import sys
 def thor():
     print('Thor: Odinson..God of thunder')
     print('thor IW: bring me thanos!!!!)
+def captain_america():
+    print('Cap: Avengers assemble')
 
 def default():
     print('Nick: welcome to avengers initiative')
@@ -11,6 +13,8 @@ if  __name__ == '__main__':
         avenger = sys.argv[1]
         if avenger == 'thor':
             thor()
+        elif avenger == 'cap':
+            captain_america()
         else:
             default() 
     except:
