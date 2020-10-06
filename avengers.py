@@ -1,6 +1,7 @@
 import sys
 def thor():
     print('Thor: Odinson..God of thunder')
+    print('thor IW: bring me thanos!!!!)
 
 def default():
     print('Nick: welcome to avengers initiative')
